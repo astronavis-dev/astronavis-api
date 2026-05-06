@@ -4,6 +4,14 @@ version = "0.1.0"
 edition = "2024"
 authors = ["Astronavis Contributors"]
 license = "MIT OR Apache-2.0"
-description = "REST API server for the Astronavis galactic cartography platform"
+description = "REST API server for the Astronavis galactic cartography and navigation platform"
 repository = "https://github.com/astronavis-dev/astronavis-api"
 readme = "README.md"
+
+[dependencies]
+axum = "0.8"
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "net", "signal"] }
+tower-http = { version = "0.6", features = ["trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
