@@ -1,23 +1,23 @@
-# Astronavis Rust Template
+# Astronavis API
 
-Standard Rust repository template used across the Astronavis ecosystem.
+REST API server for the Astronavis galactic cartography and navigation platform.
 
-## Included
+## Planned features
 
-- GitHub Actions CI
-- rustfmt configuration
-- clippy configuration
-- EditorConfig
-- dual MIT/Apache-2.0 licensing
-- standard project structure
+- planetary search
+- galactic routing
+- nearby systems lookup
+- route explanation
+- synchronization services
+- OpenAPI/Swagger support
 
-## CI checks
+## Tech stack
 
-The template includes:
-
-- cargo fmt
-- cargo clippy
-- cargo test
+- Rust
+- Axum
+- Tokio
+- SQLx
+- SQLite/PostgreSQL
 
 ## License
 
