@@ -1,11 +1,9 @@
 [package]
-name = "astronavis-app"
+name = "astronavis-api"
 version = "0.1.0"
 edition = "2024"
 authors = ["Astronavis Contributors"]
 license = "MIT OR Apache-2.0"
-description = "Astronavis Rust application template"
-repository = "https://github.com/astronavis-dev/astronavis-rust-template"
+description = "REST API server for the Astronavis galactic cartography platform"
+repository = "https://github.com/astronavis-dev/astronavis-api"
 readme = "README.md"
-
-[dependencies]

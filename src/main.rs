@@ -1,3 +1,3 @@
 fn main() {
-    println!("Astronavis template application");
+    println!("Astronavis API");
 }
